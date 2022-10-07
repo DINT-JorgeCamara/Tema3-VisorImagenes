@@ -8,8 +8,8 @@
         Title="Visor imágenes" Height="500" Width="800" MinHeight="550" MinWidth="700" Icon="Recursos/imagen.ico">
     <DockPanel>
         <DockPanel DockPanel.Dock="Bottom" Margin="10" Background="LightBlue" Height="40">
-            <TextBlock Text="Nº de imágenes: 10"  Margin="5" VerticalAlignment="Center" DockPanel.Dock="Left" FontSize="20" FontFamily="Rubik"></TextBlock>
-            <TextBlock Text="Diseñado por Jorge Cámara"   Margin="5" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" FontSize="20" FontFamily="Rubik"></TextBlock>
+            <TextBlock Text="Nº de imágenes: 10"  Margin="5" VerticalAlignment="Center" DockPanel.Dock="Left" FontSize="20" FontWeight="Bold" FontFamily="Rubik"></TextBlock>
+            <TextBlock Text="Diseñado por Jorge Cámara" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" FontWeight="Bold" FontSize="20" FontFamily="Rubik"></TextBlock>
         </DockPanel>
         <Border Background="LightGreen" Margin="5,10"  DockPanel.Dock="Right" CornerRadius="3" BorderThickness="2" BorderBrush="Black">
             <DockPanel LastChildFill="False">
@@ -24,7 +24,7 @@
                 </StackPanel>
             </DockPanel>
         </Border>
-        <TextBlock Text="Visor imágenes"  HorizontalAlignment="Center" DockPanel.Dock="Top" FontSize="40" FontFamily="Rubik"></TextBlock>
+        <TextBlock Text="Visor imágenes"  HorizontalAlignment="Center" DockPanel.Dock="Top" FontWeight="Bold" FontSize="40" FontFamily="Rubik"></TextBlock>
         <WrapPanel>
             <Image Source="Recursos/episodioIV.jpg" Height="200"/>
             <Image Source="Recursos/episodioIV.jpg" Height="200"/>
